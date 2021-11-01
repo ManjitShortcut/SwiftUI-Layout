@@ -14,6 +14,7 @@ struct CustomTabView: View {
 
     init() {
         UITabBar.appearance().isHidden = true
+        
     }
     
     // safe area
@@ -36,7 +37,7 @@ struct CustomTabView: View {
                 .background(
                     LinearGradient(gradient: .init(colors: [Color.black,Color.gray]),startPoint:.top,endPoint: .bottom)
                 ).clipShape(CustomCorner(corners: .allCorners))
-        }.ignoresSafeArea(.all,edges: .bottom)
+        }.navigationBarHidden(true).ignoresSafeArea(.all,edges: .bottom)
     }
 }
 

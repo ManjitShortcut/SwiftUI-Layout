@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A32CCA0272FE2530056BB92 /* SwiftTextLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CC9F272FE2530056BB92 /* SwiftTextLayout.swift */; };
 		1A7D042E27197F2000AD2D59 /* Fixed_Flexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D042D27197F2000AD2D59 /* Fixed_Flexible.swift */; };
 		1A7D0430271A3CA500AD2D59 /* HGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D042F271A3CA500AD2D59 /* HGrid.swift */; };
 		1AA25CEC27123425009A571F /* SwiftUILayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA25CEB27123425009A571F /* SwiftUILayoutApp.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A32CC9F272FE2530056BB92 /* SwiftTextLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTextLayout.swift; sourceTree = "<group>"; };
 		1A7D042D27197F2000AD2D59 /* Fixed_Flexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixed_Flexible.swift; sourceTree = "<group>"; };
 		1A7D042F271A3CA500AD2D59 /* HGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGrid.swift; sourceTree = "<group>"; };
 		1AA25CE827123425009A571F /* SwiftUILayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A32CC9E272FE2480056BB92 /* Text_Label */ = {
+			isa = PBXGroup;
+			children = (
+				1A32CC9F272FE2530056BB92 /* SwiftTextLayout.swift */,
+			);
+			path = Text_Label;
+			sourceTree = "<group>";
+		};
 		1AA25CDF27123425009A571F = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		1AA25CEA27123425009A571F /* SwiftUILayout */ = {
 			isa = PBXGroup;
 			children = (
+				1A32CC9E272FE2480056BB92 /* Text_Label */,
 				1AC61CE3272B425500E3086C /* OverlayView */,
 				1AF3D0BE2724135400E9BDD0 /* PageView */,
 				1AA6DBE6271884AA0000210A /* GridView */,
@@ -366,6 +377,7 @@
 				1AC76FF22726CEDD00AD53BE /* PageIndicator.swift in Sources */,
 				1AF3D0C02724139500E9BDD0 /* PageViewLayout.swift in Sources */,
 				1AA6DBF02718F2050000210A /* Fixed_AdativeGrid.swift in Sources */,
+				1A32CCA0272FE2530056BB92 /* SwiftTextLayout.swift in Sources */,
 				1AF3D0B5272351C300E9BDD0 /* TabView1.swift in Sources */,
 				1AF3D0C22724B75F00E9BDD0 /* NormalPageView.swift in Sources */,
 				1A7D0430271A3CA500AD2D59 /* HGrid.swift in Sources */,

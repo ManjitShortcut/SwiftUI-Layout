@@ -20,6 +20,9 @@ struct MainLayout: View {
                 NavigationLink("PageView") {
                     PageViewLayout()
                 }
+                NavigationLink("Text") {
+                    SwiftTextLayout()
+                }
             }.navigationTitle("Layout")
         }
     }
