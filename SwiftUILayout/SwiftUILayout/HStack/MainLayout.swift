@@ -23,6 +23,9 @@ struct MainLayout: View {
                 NavigationLink("Text") {
                     SwiftTextLayout()
                 }
+                NavigationLink("Shape"){
+                 ShapeLayout()
+                }
             }.navigationTitle("Layout")
         }
     }

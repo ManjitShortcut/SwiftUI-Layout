@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2D8399273B02AA005BFBC2 /* wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A2D8398273B02AA005BFBC2 /* wallpaper.png */; };
+		1A2D839B273B2035005BFBC2 /* CurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D839A273B2035005BFBC2 /* CurveView.swift */; };
+		1A2D839D273B2EC8005BFBC2 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D839C273B2EC8005BFBC2 /* WaveShape.swift */; };
 		1A32CCA0272FE2530056BB92 /* SwiftTextLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CC9F272FE2530056BB92 /* SwiftTextLayout.swift */; };
+		1A32CCA327301B060056BB92 /* CircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CCA227301B060056BB92 /* CircleShape.swift */; };
+		1A32CCA527301B1A0056BB92 /* TrangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CCA427301B1A0056BB92 /* TrangleShape.swift */; };
+		1A32CCA727301B2B0056BB92 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CCA627301B2B0056BB92 /* SquareShape.swift */; };
+		1A32CCA927301B390056BB92 /* RectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CCA827301B390056BB92 /* RectangleShape.swift */; };
+		1A32CCAB27301B450056BB92 /* OtherShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CCAA27301B450056BB92 /* OtherShape.swift */; };
+		1A32CCAD27301B560056BB92 /* ShapeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CCAC27301B560056BB92 /* ShapeLayout.swift */; };
+		1A32CCD0273403940056BB92 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32CCCF273403930056BB92 /* CircularProgressView.swift */; };
 		1A7D042E27197F2000AD2D59 /* Fixed_Flexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D042D27197F2000AD2D59 /* Fixed_Flexible.swift */; };
 		1A7D0430271A3CA500AD2D59 /* HGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D042F271A3CA500AD2D59 /* HGrid.swift */; };
 		1AA25CEC27123425009A571F /* SwiftUILayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA25CEB27123425009A571F /* SwiftUILayoutApp.swift */; };
@@ -22,6 +32,7 @@
 		1ABEB45D271E104E00FAB40A /* MultipleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEB45C271E104D00FAB40A /* MultipleGrid.swift */; };
 		1ABEB45F271E201E00FAB40A /* GridWithHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEB45E271E201E00FAB40A /* GridWithHeaderView.swift */; };
 		1AC76FF22726CEDD00AD53BE /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC76FF12726CEDD00AD53BE /* PageIndicator.swift */; };
+		1AE89CE627393C5C00D4DC41 /* Screenshot 2021-11-08 at 12.06.59.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE89CE527393C5C00D4DC41 /* Screenshot 2021-11-08 at 12.06.59.png */; };
 		1AF3D0AD2722B6B700E9BDD0 /* TabViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3D0AC2722B6B700E9BDD0 /* TabViewUI.swift */; };
 		1AF3D0AF2722B6C700E9BDD0 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3D0AE2722B6C700E9BDD0 /* CustomTabView.swift */; };
 		1AF3D0B127234E0D00E9BDD0 /* MainLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3D0B027234E0D00E9BDD0 /* MainLayout.swift */; };
@@ -37,7 +48,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2D8398273B02AA005BFBC2 /* wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper.png; sourceTree = "<group>"; };
+		1A2D839A273B2035005BFBC2 /* CurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveView.swift; sourceTree = "<group>"; };
+		1A2D839C273B2EC8005BFBC2 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		1A32CC9F272FE2530056BB92 /* SwiftTextLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTextLayout.swift; sourceTree = "<group>"; };
+		1A32CCA227301B060056BB92 /* CircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShape.swift; sourceTree = "<group>"; };
+		1A32CCA427301B1A0056BB92 /* TrangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrangleShape.swift; sourceTree = "<group>"; };
+		1A32CCA627301B2B0056BB92 /* SquareShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		1A32CCA827301B390056BB92 /* RectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleShape.swift; sourceTree = "<group>"; };
+		1A32CCAA27301B450056BB92 /* OtherShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherShape.swift; sourceTree = "<group>"; };
+		1A32CCAC27301B560056BB92 /* ShapeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayout.swift; sourceTree = "<group>"; };
+		1A32CCCF273403930056BB92 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		1A7D042D27197F2000AD2D59 /* Fixed_Flexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixed_Flexible.swift; sourceTree = "<group>"; };
 		1A7D042F271A3CA500AD2D59 /* HGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGrid.swift; sourceTree = "<group>"; };
 		1AA25CE827123425009A571F /* SwiftUILayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +74,7 @@
 		1ABEB45C271E104D00FAB40A /* MultipleGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGrid.swift; sourceTree = "<group>"; };
 		1ABEB45E271E201E00FAB40A /* GridWithHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridWithHeaderView.swift; sourceTree = "<group>"; };
 		1AC76FF12726CEDD00AD53BE /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		1AE89CE527393C5C00D4DC41 /* Screenshot 2021-11-08 at 12.06.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-11-08 at 12.06.59.png"; sourceTree = "<group>"; };
 		1AF3D0AC2722B6B700E9BDD0 /* TabViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewUI.swift; sourceTree = "<group>"; };
 		1AF3D0AE2722B6C700E9BDD0 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		1AF3D0B027234E0D00E9BDD0 /* MainLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLayout.swift; sourceTree = "<group>"; };
@@ -86,6 +108,24 @@
 			path = Text_Label;
 			sourceTree = "<group>";
 		};
+		1A32CCA1273002ED0056BB92 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				1A32CCA227301B060056BB92 /* CircleShape.swift */,
+				1AE89CE527393C5C00D4DC41 /* Screenshot 2021-11-08 at 12.06.59.png */,
+				1A32CCA427301B1A0056BB92 /* TrangleShape.swift */,
+				1A2D8398273B02AA005BFBC2 /* wallpaper.png */,
+				1A32CCA627301B2B0056BB92 /* SquareShape.swift */,
+				1A32CCA827301B390056BB92 /* RectangleShape.swift */,
+				1A32CCAA27301B450056BB92 /* OtherShape.swift */,
+				1A32CCAC27301B560056BB92 /* ShapeLayout.swift */,
+				1A32CCCF273403930056BB92 /* CircularProgressView.swift */,
+				1A2D839A273B2035005BFBC2 /* CurveView.swift */,
+				1A2D839C273B2EC8005BFBC2 /* WaveShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
 		1AA25CDF27123425009A571F = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +145,7 @@
 		1AA25CEA27123425009A571F /* SwiftUILayout */ = {
 			isa = PBXGroup;
 			children = (
+				1A32CCA1273002ED0056BB92 /* Shape */,
 				1A32CC9E272FE2480056BB92 /* Text_Label */,
 				1AC61CE3272B425500E3086C /* OverlayView */,
 				1AF3D0BE2724135400E9BDD0 /* PageView */,
@@ -346,6 +387,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2D8399273B02AA005BFBC2 /* wallpaper.png in Resources */,
+				1AE89CE627393C5C00D4DC41 /* Screenshot 2021-11-08 at 12.06.59.png in Resources */,
 				1AA25CF327123429009A571F /* Preview Assets.xcassets in Resources */,
 				1AA25CF027123429009A571F /* Assets.xcassets in Resources */,
 			);
@@ -360,24 +403,33 @@
 			files = (
 				1AA6DBEC2718A21B0000210A /* FixedLayout.swift in Sources */,
 				1AF3D0BD27237AD300E9BDD0 /* CustomCorner.swift in Sources */,
+				1A2D839D273B2EC8005BFBC2 /* WaveShape.swift in Sources */,
 				1ABEB45D271E104E00FAB40A /* MultipleGrid.swift in Sources */,
+				1A32CCA527301B1A0056BB92 /* TrangleShape.swift in Sources */,
+				1A32CCA927301B390056BB92 /* RectangleShape.swift in Sources */,
 				1A7D042E27197F2000AD2D59 /* Fixed_Flexible.swift in Sources */,
 				1AA25CEE27123425009A571F /* ContentView.swift in Sources */,
 				1ABEB45F271E201E00FAB40A /* GridWithHeaderView.swift in Sources */,
 				1AF3D0AF2722B6C700E9BDD0 /* CustomTabView.swift in Sources */,
 				1AF3D0C42724B76C00E9BDD0 /* CustomPageView.swift in Sources */,
 				1AA6DBE8271897F60000210A /* GridView.swift in Sources */,
+				1A32CCA327301B060056BB92 /* CircleShape.swift in Sources */,
 				1AF3D0B3272350FC00E9BDD0 /* TabViewLayout.swift in Sources */,
 				1AF3D0B9272351E100E9BDD0 /* TabView3.swift in Sources */,
+				1A32CCAB27301B450056BB92 /* OtherShape.swift in Sources */,
+				1A2D839B273B2035005BFBC2 /* CurveView.swift in Sources */,
 				1AA6DBEE2718A2270000210A /* FlexibleLayout.swift in Sources */,
+				1A32CCA727301B2B0056BB92 /* SquareShape.swift in Sources */,
 				1AF3D0B127234E0D00E9BDD0 /* MainLayout.swift in Sources */,
 				1AA6DBEA2718A2000000210A /* AdativeLayout.swift in Sources */,
 				1AF3D0BB2723677000E9BDD0 /* TabButton.swift in Sources */,
 				1AF3D0B7272351D300E9BDD0 /* TabView2.swift in Sources */,
 				1AC76FF22726CEDD00AD53BE /* PageIndicator.swift in Sources */,
+				1A32CCAD27301B560056BB92 /* ShapeLayout.swift in Sources */,
 				1AF3D0C02724139500E9BDD0 /* PageViewLayout.swift in Sources */,
 				1AA6DBF02718F2050000210A /* Fixed_AdativeGrid.swift in Sources */,
 				1A32CCA0272FE2530056BB92 /* SwiftTextLayout.swift in Sources */,
+				1A32CCD0273403940056BB92 /* CircularProgressView.swift in Sources */,
 				1AF3D0B5272351C300E9BDD0 /* TabView1.swift in Sources */,
 				1AF3D0C22724B75F00E9BDD0 /* NormalPageView.swift in Sources */,
 				1A7D0430271A3CA500AD2D59 /* HGrid.swift in Sources */,
