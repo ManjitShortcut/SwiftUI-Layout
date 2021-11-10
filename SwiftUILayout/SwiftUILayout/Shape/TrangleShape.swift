@@ -27,7 +27,7 @@ struct TrangleShape: View {
                 }
             }
            
-        }.navigationTitle("Tranble")
+        }.navigationTitle("Trangle")
        
     }
 }
